@@ -75,7 +75,7 @@ $(function() {
     $(window).scroll(function() {
         winScrollTop = $(this).scrollTop();
         if(startPos <= winScrollTop) {
-            $('header').slideUp();
+            $('header').css("display", "none");
         } else {
             $('header').slideDown();
         }
