@@ -1,0 +1,252 @@
+@media screen and (max-width:559px) {
+
+    body {
+        margin: 0;
+        color: #333333;
+    }
+
+    h1, h2, p, ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+        font-size: 19px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        display: inline-block;
+    }
+
+    a:hover {
+        opacity: 0.7;
+        border-bottom: 1px solid;
+    }
+
+    .container {
+        padding: 20px 30px;
+        display: flex; /* 子要素をflexboxで揃える */
+        flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+        justify-content: center; /* 子要素をflexboxにより中央に配置する */
+        align-items: center;  /* 子要素をflexboxにより中央に配置する */
+    }
+
+    /********header*********/
+    header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        padding: 2em 0 2em 0;
+        background-color: white;
+        border-bottom: 2px solid #dcdcdc;
+    }
+
+    #header_menu {
+        padding: 0 15%;
+        font-size: 20px;
+        display: none;
+    }
+
+    .header_list {
+        cursor: pointer;
+    }
+
+    #dropdwn {
+
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #dropdwn_close {
+        display: none;
+    }
+
+    .dropdwn_btn {
+        margin-right: 5%;
+        cursor: pointer;
+    }
+
+    #dropdwn_menu {
+        font-size: 1.5em;
+        display: none;
+        text-align: center;
+    }
+
+    .dropdwn_list {
+        margin: 5% 0;
+        cursor: pointer;
+    }
+
+    /********main*********/
+    #main {
+        display: flex; /* 子要素をflexboxで揃える */
+        flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+        justify-content: center; /* 子要素をflexboxにより中央に配置する */
+        align-items: center;  /* 子要素をflexboxにより中央に配置する */
+    }
+
+    #main p {
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
+    /********work*********/
+    #work {
+        background-color: #f5f5f5;
+    }
+
+    #work_container {
+        padding: 30px 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .work_content {
+        width: 47%;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .work_content img {
+        width: 100%;
+    }
+
+    /********skills*********/
+    #skill {
+
+    }
+
+    #skill_container {
+        padding: 30px 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .skill_content {
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill_block {
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .skill_block p {
+        padding: 3px 0;
+    }
+
+    .fab {
+        width: 10%;
+    }
+
+    .fa-html5 {
+        color: tomato;
+    }
+
+    .fa-css3-alt {
+        color: #00bfff;
+    }
+
+    .fa-js-square {
+        color: #ffd700;
+    }
+
+    .fa-php {
+        color: #7b68ee;
+    }
+
+    .fa-adobe {
+        color: red;
+    }
+
+    /********profile*********/
+    #profile {
+        background-color: #f5f5f5;
+    }
+
+    #profile_container {
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #profile_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #profile_container img {
+        width: 40%;
+    }
+
+    #profile_name {
+        padding-bottom: 10px;
+    }
+
+    /********contact*********/
+    #contact {
+
+    }
+
+    #contact_container {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    /********footer*********/
+    footer {
+        padding: 20px 50px;
+        text-align: center;
+        color: white;
+        background-color: #333333;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+    /********固定content*********/
+    #position {
+        position: fixed;
+        top: 500px
+    }
+
+    #top {
+        height: 50px;
+        width: 100px;
+        position: fixed;
+        bottom: 50px;
+        right: 20px;
+        background-color: orange;
+        border-radius: 150px;
+        display: flex; /* 子要素をflexboxで揃える */
+        flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+        justify-content: center; /* 子要素をflexboxにより中央に配置する */
+        align-items: center;
+        cursor: pointer;
+    }
+
+
+}
