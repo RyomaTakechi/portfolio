@@ -1,4 +1,8 @@
 @media screen and (min-width:960px) {
+    html{
+        font-size: 62.5%;
+    }
+
     body {
         margin: 0;
         color: #333333;
@@ -10,16 +14,16 @@
     }
 
     h1 {
-        font-size: 64px;
+        font-size: 6rem;
     }
 
     h2 {
-        margin-bottom: 15px;
-        font-size: 40px;
+        margin-bottom: 1.5rem;
+        font-size: 4rem;
     }
 
     p {
-        font-size: 17px;
+        font-size: 1.7rem;
     }
 
     li {
@@ -28,6 +32,7 @@
 
     a {
         display: inline-block;
+        font-size: 1.7rem;
     }
 
     a:hover {
@@ -36,7 +41,7 @@
     }
 
     .container {
-        padding: 100px 100px;
+        padding: 10rem 10rem;
         display: flex; /* 子要素をflexboxで揃える */
         flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
         justify-content: center; /* 子要素をflexboxにより中央に配置する */
@@ -48,14 +53,14 @@
         width: 100%;
         position: fixed;
         top: 0;
-        padding: 2em 0 2em 0;
+        padding: 2rem 0;
         background-color: white;
         border-bottom: 2px solid #dcdcdc;
     }
 
     #header_menu {
         padding: 0 15%;
-        font-size: 20px;
+        font-size: 2rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -85,7 +90,7 @@
     }
 
     #dropdwn_menu {
-        font-size: 1.5em;
+        font-size: 1.5rem;
         display: none;
         text-align: center;
     }
@@ -104,17 +109,42 @@
     }
 
     #main p {
-        padding-bottom: 10px;
-        font-size: 20px;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    /********profile*********/
+    #profile {
+        background-color: #f5f5f5;
+    }
+
+    #profile_container {
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #profile_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #profile_container img {
+        width: 25%;
+    }
+
+    #profile_name {
+        padding-bottom: 1rem;
     }
 
     /********work*********/
     #work {
-        background-color: #f5f5f5;
+
     }
 
     #work_container {
-        padding: 30px 0;
+        padding: 3rem 0;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
@@ -122,7 +152,7 @@
 
     .work_content {
         width: 32%;
-        padding-bottom: 30px;
+        padding-bottom: 3rem;
         text-align: center;
     }
 
@@ -132,11 +162,11 @@
 
     /********skills*********/
     #skill {
-
+        background-color: #f5f5f5;
     }
 
     #skill_container {
-        padding: 30px 0;
+        padding: 3rem 0;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
@@ -144,7 +174,7 @@
 
     .skill_content {
         width: 48%;
-        padding: 10px 0;
+        padding: 1rem 0;
         display: flex;
         flex-direction: row;
     }
@@ -178,30 +208,6 @@
         color: red;
     }
 
-    /********profile*********/
-    #profile {
-        background-color: #f5f5f5;
-    }
-
-    #profile_container {
-        padding: 30px 0;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #profile_text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    #profile_container img {
-        width: 25%;
-    }
-
-    #profile_name {
-        padding-bottom: 10px;
-    }
 
     /********contact*********/
     #contact {
@@ -209,21 +215,22 @@
     }
 
     #contact_container {
-        padding: 30px 0;
+        padding: 3rem 0;
         text-align: center;
     }
 
     /********footer*********/
     footer {
-        padding: 20px 50px;
+        padding: 2rem 5rem;
         text-align: center;
         color: white;
         background-color: #333333;
     }
 
     footer p {
-        font-size: 12px;
+        font-size: 1.2rem;
     }
+    
     /********固定content*********/
     #position {
         position: fixed;
@@ -244,5 +251,4 @@
         align-items: center;
         cursor: pointer;
     }
-
 }
