@@ -1,4 +1,7 @@
 @media screen and (max-width:959px) and (min-width:560px) {
+    html{
+        font-size: 62.5%;
+    }
 
     body {
         margin: 0;
@@ -11,16 +14,16 @@
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 6rem;
     }
 
     h2 {
-        margin-bottom: 15px;
-        font-size: 30px;
+        margin-bottom: 1.5rem;
+        font-size: 4rem;
     }
 
     p {
-        font-size: 14px;
+        font-size: 1.7rem;
     }
 
     li {
@@ -29,6 +32,7 @@
 
     a {
         display: inline-block;
+        font-size: 1.7rem
     }
 
     a:hover {
@@ -49,14 +53,14 @@
         width: 100%;
         position: fixed;
         top: 0;
-        padding: 20px 0;
+        padding: 2rem 0;
         background-color: white;
         border-bottom: 2px solid #dcdcdc;
     }
 
     #header_menu {
         padding: 0 15%;
-        font-size: 20px;
+        font-size: 2rem;
         display: none;
     }
 
@@ -83,7 +87,7 @@
     }
 
     #dropdwn_menu {
-        font-size: 1.5em;
+        font-size: 1.5rem;
         display: none;
         text-align: center;
     }
@@ -102,17 +106,44 @@
     }
 
     #main p {
-        padding-bottom: 10px;
-        font-size: 18px;
+        padding-bottom: 1rem;
+        font-size: 2rem;
     }
 
-    /********work*********/
-    #work {
+    /********profile*********/
+    #profile {
         background-color: #f5f5f5;
     }
 
+    #profile_container {
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #profile_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #profile_container img {
+        width: 40%;
+    }
+
+    #profile_name {
+        padding-bottom: 1rem;
+    }
+
+
+    /********work*********/
+    #work {
+
+    }
+
     #work_container {
-        padding: 30px 0;
+        padding: 3rem 0;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
@@ -120,7 +151,7 @@
 
     .work_content {
         width: 47%;
-        padding-bottom: 30px;
+        padding-bottom: 3rem;
         text-align: center;
     }
 
@@ -130,11 +161,11 @@
 
     /********skills*********/
     #skill {
-
+        background-color: #f5f5f5;
     }
 
     #skill_container {
-        padding: 30px 0;
+        padding: 3rem 0;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
@@ -142,7 +173,7 @@
 
     .skill_content {
         width: 100%;
-        padding: 10px 0;
+        padding: 1rem 0;
         display: flex;
         flex-direction: row;
     }
@@ -176,52 +207,26 @@
         color: red;
     }
 
-    /********profile*********/
-    #profile {
-        background-color: #f5f5f5;
-    }
-
-    #profile_container {
-        padding: 30px 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #profile_text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    #profile_container img {
-        width: 40%;
-    }
-
-    #profile_name {
-        padding-bottom: 10px;
-    }
-
     /********contact*********/
     #contact {
 
     }
 
     #contact_container {
-        padding: 30px 0;
+        padding: 3rem 0;
         text-align: center;
     }
 
     /********footer*********/
     footer {
-        padding: 20px 50px;
+        padding: 2rem 5rem;
         text-align: center;
         color: white;
         background-color: #333333;
     }
 
     footer p {
-        font-size: 12px;
+        font-size: 1.2rem;
     }
     /********固定content*********/
     #position {
