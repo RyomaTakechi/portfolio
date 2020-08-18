@@ -1,7 +1,8 @@
 $(function() {
-
-    var h = $(window).height();
-    $('#main').height(h);
+    $(window).ready(function() {
+        var h = $(window).height();
+        $('#main').css("height",h);
+    });
 
     //dropdwn_menuの切り替え
     var flg = true;
@@ -21,31 +22,43 @@ $(function() {
     });
 
     //header_listがクリックされた時に移動
+    $('#header_profile').click(function() {
+        $(window).scrollTop(703);
+    });
     $('#header_work').click(function() {
-        $(window).scrollTop(800);
+        $(window).scrollTop(1772);
     });
     $('#header_skill').click(function() {
-        $(window).scrollTop(1870);
-    });
-    $('#header_profile').click(function() {
-        $(window).scrollTop(2552);
+        $(window).scrollTop(2819);
     });
     $('#header_contact').click(function() {
-        $(window).scrollTop(3409);
+        $(window).scrollTop(3251);
     });
 
     //dropdwn_listがクリックされた時に移動
+    $('#dropdwn_profile').click(function() {
+        $(window).scrollTop(702);
+        $('#dropdwn_close').css("display","none");
+        $('#dropdwn_bar').css("display","block");
+        $('#dropdwn_menu').slideUp();
+    });
     $('#dropdwn_work').click(function() {
-        $(window).scrollTop(800);
+        $(window).scrollTop(1898);
+        $('#dropdwn_close').css("display","none");
+        $('#dropdwn_bar').css("display","block");
+        $('#dropdwn_menu').slideUp();
     });
     $('#dropdwn_skill').click(function() {
-        $(window).scrollTop(1985);
-    });
-    $('#dropdwn_profile').click(function() {
-        $(window).scrollTop(2625);
+        $(window).scrollTop(3310);
+        $('#dropdwn_close').css("display","none");
+        $('#dropdwn_bar').css("display","block");
+        $('#dropdwn_menu').slideUp();
     });
     $('#dropdwn_contact').click(function() {
-        $(window).scrollTop(3389);
+        $(window).scrollTop(3656);
+        $('#dropdwn_close').css("display","none");
+        $('#dropdwn_bar').css("display","block");
+        $('#dropdwn_menu').slideUp();
     });
 
     //topボタンの表示・非表示
@@ -81,6 +94,5 @@ $(function() {
         }
         startPos = winScrollTop;
     });
-
 
 });
